@@ -1,0 +1,75 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/bgport7.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+/* ✅ Fixed invalid color */
+.label {
+    color: lightblue; /* Use a valid color */
+    margin-bottom: 0.5rem;
+}
+
+/* ✅ Corrected class name */
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+    margin-top: 100px; /* ✅ Moves the form down */
+}
+
+
+/* ✅ Added space & fixed styles */
+.form input,
+.form textarea {
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    background-color: rgba(206, 106, 106, 0.1);
+    border-color: white;
+    color: white;
+    border-radius: 5px; /* Smooth edges */
+}
+
+/* ✅ Styled button for better visibility */
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: hwb(208 7% 7%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.contact-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 120px; /* ✅ Moves it below navbar */
+    color: #87CEEB;
+}
+
+
+
+.contact-subtitle {
+  font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 120px; /* ✅ Moves it below navbar */
+    color: rgb(225, 221, 221);
+}
+

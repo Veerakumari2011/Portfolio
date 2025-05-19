@@ -1,0 +1,72 @@
+.img {
+    width: 300px; /* Make sure width and height are the same */
+    height: 300px;
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover; /* Ensures the image fits properly */
+    margin-right: 200px;
+}
+
+
+
+.about {
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+/* Left Section */
+.left {
+    text-align: justify;
+    font-size: 1.4rem;
+    padding: 1rem;
+    max-width: 800px;
+    color: white;
+}
+
+/* Increased space between paragraphs */
+.paragraph {
+    margin-bottom: 1.5rem; /* ✅ Adds spacing */
+}
+
+/* Right Section */
+.right {
+    max-width: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-container {
+    display:ruby-base-container;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .right {
+        justify-content: center;
+    }
+}
+.btn1{
+    margin-left:300px;
+}
+.bgport7-img {
+  
+    width: 100%;
+    min-height: 70vh; /* Ensures full coverage */
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
